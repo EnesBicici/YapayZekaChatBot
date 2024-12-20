@@ -1,0 +1,50 @@
+version: "3.1"
+
+stories:
+
+- story: burs başvurusu
+  steps:
+  - intent: ask_burs
+  - action: utter_ask_burs
+
+- story: harç ödemesi
+  steps:
+  - intent: ask_harç
+  - action: utter_ask_harç
+
+- story: akademik takvim
+  steps:
+  - intent: ask_academic_calendar
+  - action: utter_ask_academic_calendar
+
+- story: çalışan hakları
+  steps:
+  - intent: ask_work_rights
+  - action: utter_ask_work_rights
+
+- story: mutlu yol
+  steps:
+  - intent: selamlama
+  - action: utter_greet
+  - intent: iyi_ruh_hali
+  - action: utter_happy
+
+- story: üzgün yol 1
+  steps:
+  - intent: selamlama
+  - action: utter_greet
+  - intent: kötü_ruh_hali
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: onay
+  - action: utter_happy
+
+- story: üzgün yol 2
+  steps:
+  - intent: selamlama
+  - action: utter_greet
+  - intent: kötü_ruh_hali
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: reddetme
+  - action: utter_goodbye

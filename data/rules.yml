@@ -1,0 +1,108 @@
+version: "3.1"
+
+rules:
+
+- rule: Burs başvurusu ile ilgili bilgi ver
+  steps:
+  - intent: ask_burs
+  - action: utter_ask_burs
+
+- rule: Harç ödemesi ile ilgili bilgi ver
+  steps:
+  - intent: ask_harç
+  - action: utter_ask_harç
+
+- rule: Akademik takvim hakkında bilgi ver
+  steps:
+  - intent: ask_academic_calendar
+  - action: utter_ask_academic_calendar
+
+- rule: Çalışan hakları ile ilgili bilgi ver
+  steps:
+  - intent: ask_work_rights
+  - action: utter_ask_work_rights
+
+- rule: Kullanıcı "hoşça kal" dediğinde her zaman veda et
+  steps:
+  - intent: veda
+  - action: utter_goodbye
+
+- rule: Kullanıcı "bot musun?" gibi bir soru sorduğunda her zaman 'Ben bir botum' de
+  steps:
+  - intent: bot_sorgusu
+  - action: utter_iamabot
+
+- rule: indirim
+  steps:
+  - intent: ask_indirim
+  - action: utter_indirim_kosullari
+
+
+- rule: İktisat bölümü ücreti
+  steps:
+  - intent: ask_ucret_ikt
+  - action: utter_ucret_ikt
+
+- rule: İşletme bölümü ücreti
+  steps:
+  - intent: ask_ucret_isletme
+  - action: utter_ucret_isletme
+
+- rule: Mühendislik bölümü ücreti
+  steps:
+  - intent: ask_ucret_muhendislik
+  - action: utter_ucret_muhendislik
+
+- rule: Hukuk bölümü ücreti
+  steps:
+  - intent: ask_ucret_hukuk
+  - action: utter_ucret_hukuk
+
+- rule: Görsel Sanatlar bölümü ücreti
+  steps:
+  - intent: ask_ucret_gorsel_sanatlar
+  - action: utter_ucret_gorsel_sanatlar
+
+
+- rule: Ücret sorgulama
+  steps:
+  - intent: ask_ucret_iletisim
+  - action: utter_ucret_iletisim
+
+- rule: Ücret sorgulama
+  steps:
+  - intent: ask_ucret_ekonomi
+  - action: utter_ucret_ekonomi
+
+- rule: Ücret sorgulama
+  steps:
+  - intent: ask_ucret_bilgisayar
+  - action: utter_ucret_bilgisayar
+
+- rule: Ücret sorgulama
+  steps:
+  - intent: ask_ucret_endustri
+  - action: utter_ucret_endustri
+
+- rule: Ücret sorgulama
+  steps:
+  - intent: ask_ucret_sosyoloji
+  - action: utter_ucret_sosyoloji
+  
+- rule: Taksitli ödeme sorgulama
+  steps:
+  - intent: ask_taksitli_odeme
+  - action: utter_taksitli_odeme
+
+- rule: Ücret ödeme seçenekleri sorgulama
+  steps:
+  - intent: ask_ucret_odeme
+  - action: utter_ucret_odeme
+
+
+- rule: Mali işler departmanı ile iletişim
+  steps:
+  - intent: ask_mali_iletisim
+  - action: utter_mali_iletisim
+
+

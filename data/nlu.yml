@@ -1,0 +1,212 @@
+version: "3.1"
+
+nlu:
+- intent: ask_burs
+  examples: |
+    - Burs başvurusu nasıl yapılır?
+    - Burs başvurusu için hangi belgeler gerekli?
+    - Burs başvurusu ne zaman yapılır?
+    
+- intent: ask_harç
+  examples: |
+    - Harç ödemesi nasıl yapılır?
+    - Harç ücretini ne zaman ödeyeceğim?
+    - Harç ödeme tarihleri nedir?
+
+- intent: ask_academic_calendar
+  examples: |
+    - Akademik takvimi paylaşır mısınız?
+    - Bu yılın akademik takvimi nedir?
+
+- intent: ask_work_rights
+  examples: |
+    - Çalışan hakları nelerdir?
+    - Çalışanlara hangi haklar sağlanır?
+
+
+- intent: ask_indirim
+  examples: |
+    - Öğrencilerin burs oranı nasıl hesaplanır?
+    - İndirim Koşulları nelerdir?
+    
+
+- intent: selamlama
+  examples: |
+    - merhaba
+    - selam
+    - merhabalar
+    - iyi günler
+    - iyi akşamlar
+    - günaydın
+    - moin
+    - hey
+    - selamünaleyküm
+    - nasılsın
+    - hoş geldiniz
+    - günaydınlar
+
+- intent: veda
+  examples: |
+    - görüşürüz
+    - hoşça kal
+    - bay
+    - güle güle
+    - iyi geceler
+    - hoşça kalın
+    - kendine iyi bak
+    - sonra görüşürüz
+    - bay bay
+    - görüşmek üzere
+
+- intent: onay
+  examples: |
+    - evet
+    - tabii
+    - doğru
+    - kesinlikle
+    - tabi ki
+    - olur
+    - harika
+    - doğru söylüyorsun
+    - kesinlikle katılıyorum
+
+- intent: reddetme
+  examples: |
+    - hayır
+    - olmaz
+    - kesinlikle değil
+    - düşünmüyorum
+    - beğenmedim
+    - yok
+    - hiç bir şekilde
+    - pek de öyle değil
+
+- intent: iyi_ruh_hali
+  examples: |
+    - mükemmel
+    - harika
+    - süper
+    - çok iyi hissediyorum
+    - şahane
+    - çok iyiyim
+    - kendimi çok iyi hissediyorum
+    - harika hissediyorum
+    - süperim
+    - çok mutlu
+    - çok iyi
+    - her şey yolunda
+    - müthiş
+
+- intent: kötü_ruh_hali
+  examples: |
+    - günüm çok kötüydü
+    - üzgünüm
+    - kendimi pek iyi hissetmiyorum
+    - hayal kırıklığına uğradım
+    - çok üzgünüm
+    - moralim bozuk
+    - üzgün
+    - çok üzgünüm
+    - mutsuzum
+    - kötü hissediyorum
+    - çok kötü hissediyorum
+    - aşırı üzgünüm
+    - çok kötü
+
+- intent: bot_sorgusu
+  examples: |
+    - sen bir bot musun?
+    - sen insan mısın?
+    - ben bir bota mı konuşuyorum?
+    - ben bir insanla mı konuşuyorum?
+
+
+
+- intent: ask_ucret_ikt
+  examples: |
+    - İktisat bölümünün ücreti nedir?
+    - İktisat programı için yıllık ücret ne kadar?
+    - İstanbul Kültür Üniversitesi İktisat bölümünün ücretleri hakkında bilgi verir misiniz?
+
+- intent: ask_ucret_isletme
+  examples: |
+    - İşletme bölümünün ücreti nedir?
+    - İşletme programının yıllık ücreti ne kadar?
+    - İstanbul Kültür Üniversitesi İşletme bölümü için ücret bilgisi alabilir miyim?
+
+- intent: ask_ucret_muhendislik
+  examples: |
+    - Mühendislik fakültesinin ücreti nedir?
+    - Elektrik mühendisliği bölümünün yıllık ücreti ne kadar?
+    - İstanbul Kültür Üniversitesi Mühendislik bölümleri için ücret bilgisi?
+
+- intent: ask_ucret_hukuk
+  examples: |
+    - Hukuk bölümünün ücreti nedir?
+    - Hukuk programı için ücret ne kadar?
+    - İstanbul Kültür Üniversitesi Hukuk bölümü ücretleri hakkında bilgi verir misiniz?
+
+- intent: ask_ucret_gorsel_sanatlar
+  examples: |
+    - Görsel Sanatlar bölümünün ücreti nedir?
+    - Grafik Tasarım bölümünün ücret bilgisi nedir?
+    - İstanbul Kültür Üniversitesi Görsel Sanatlar bölümü için ücret ne kadar?
+
+
+- intent: ask_ucret_iletisim
+  examples: |
+    - İletişim bölümünün ücreti nedir?
+    - İletişim Fakültesi için ücret bilgisi nedir?
+    - İstanbul Kültür Üniversitesi İletişim bölümü ücreti hakkında bilgi alabilir miyim?
+
+- intent: ask_ucret_ekonomi
+  examples: |
+    - Ekonomi bölümünün ücreti nedir?
+    - İstanbul Kültür Üniversitesi Ekonomi bölümü için ücret bilgisi nedir?
+    - Ekonomi programının yıllık ücreti ne kadar?
+
+- intent: ask_ucret_bilgisayar
+  examples: |
+    - Bilgisayar Mühendisliği bölümünün ücreti nedir?
+    - İstanbul Kültür Üniversitesi Bilgisayar Mühendisliği bölümü ücreti ne kadar?
+    - Bilgisayar mühendisliği bölümü için ücret bilgisi alabilir miyim?
+
+- intent: ask_ucret_endustri
+  examples: |
+    - Endüstri Mühendisliği bölümünün ücreti nedir?
+    - İstanbul Kültür Üniversitesi Endüstri Mühendisliği programı ücret bilgisi nedir?
+    - Endüstri mühendisliği bölümü için yıllık ücret ne kadar?
+
+- intent: ask_ucret_sosyoloji
+  examples: |
+    - Sosyoloji bölümünün ücreti nedir?
+    - İstanbul Kültür Üniversitesi Sosyoloji bölümü ücreti hakkında bilgi verir misiniz?
+    - Sosyoloji programının ücreti ne kadar?
+
+
+- intent: ask_taksitli_odeme
+  examples: |
+    - Hangi kredi kartlarında taksitli ödeme yapılabilir?
+    - Taksitli ödeme imkanı olan kredi kartları hangileridir?
+    - Hangi bankaların kredi kartlarında 12 taksitle ödeme yapılır?
+    - Taksitli ödeme için hangi kartlar geçerli?
+    - Taksitli ödeme yapabileceğim kredi kartlarını söyler misiniz?
+
+
+- intent: ask_ucret_odeme
+  examples: |
+    - İstanbul Kültür Üniversitesi'nde ücret ödeme seçenekleri nelerdir?
+    - İstanbul Kültür Üniversitesi'nde hangi ödeme seçenekleri mevcuttur?
+    - İstanbul Kültür Üniversitesi'nde öğrenim ücreti için ödeme yapabileceğim seçenekler nelerdir?
+    - İstanbul Kültür Üniversitesi'nde ücret ödeme yolları hakkında bilgi alabilir miyim?
+    - İstanbul Kültür Üniversitesi'nde taksitli ödeme seçenekleri nasıl yapılır?
+
+
+- intent: ask_mali_iletisim
+  examples: |
+    - İstanbul Kültür Üniversitesi mali işler departmanıyla nasıl iletişime geçebilirim?
+    - Mali işler departmanına nasıl ulaşabilirim?
+    - İstanbul Kültür Üniversitesi mali işler için iletişim bilgileri nedir?
+    - İstanbul Kültür Üniversitesi mali işler departmanına nasıl mail atabilirim?
+    - İstanbul Kültür Üniversitesi mali işler departmanı ile telefonla nasıl iletişime geçebilirim?
+
