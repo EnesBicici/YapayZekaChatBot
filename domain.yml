@@ -1,0 +1,116 @@
+version: "3.1"
+
+intents:
+  - ask_burs
+  - ask_harç
+  - ask_academic_calendar
+  - ask_work_rights
+  - selamlama
+  - veda
+  - onay
+  - reddetme
+  - iyi_ruh_hali
+  - kötü_ruh_hali
+  - bot_sorgusu
+  - ask_indirim
+  - ask_ucret_ikt
+  - ask_ucret_isletme
+  - ask_ucret_muhendislik
+  - ask_ucret_hukuk
+  - ask_ucret_gorsel_sanatlar
+  - ask_ucret_iletisim
+  - ask_ucret_ekonomi
+  - ask_ucret_bilgisayar
+  - ask_ucret_endustri
+  - ask_ucret_sosyoloji
+  - ask_taksitli_odeme
+  - ask_ucret_odeme
+  - ask_mali_iletisim
+
+
+responses:
+
+  utter_ask_burs:
+  - text: "Burs başvurusu için gerekli belgeler ve başvuru tarihleri hakkında detayları Kültür Üniversitesi öğrenci işlerinden öğrenebilirsiniz."
+
+  utter_ask_harç:
+  - text: "Harç ödemeleri için ödeme tarihlerini ve miktarları öğrenci portalınızda bulabilirsiniz."
+
+  utter_ask_academic_calendar:
+  - text: "Kültür Üniversitesi 2024-2025 akademik takvimine http://www.iku.edu.tr/tr/akademik-takvim adresinden ulaşabilirsiniz."
+
+  utter_ask_work_rights:
+  - text: "Çalışan hakları hakkında detaylı bilgi almak için insan kaynakları departmanına başvurabilirsiniz."
+
+  
+  utter_indirim_kosullari:
+  - text: "Ebeveynlerden birinin öğretmen, hâkim, savcı veya öğretim üyesi olması durumunda %10 indirim uygulanır.\nAynı anda birden fazla kardeşin İstanbul Kültür Üniversitesi’nde eğitim görmesi durumunda, her bir kardeşe %10 indirim uygulanır.\nİstanbul Kültür Üniversitesi mezunu olan öğrenci veya kardeşine, İKÜ Mezunları ve Mensupları Derneği'ne üye olmaları koşuluyla %15 indirim uygulanır.\nİstanbul Kültür Üniversitesi’nin bölümlerine tercih listelerinde birinci sıradan yer vererek yerleşen öğrenciler İlk Tercih İndirimi ile %15 indirim desteklenmektedir."
+
+
+  utter_greet:
+  - text: "Merhaba! Nasılsın?"
+
+  utter_cheer_up:
+  - text: "İşte seni neşelendirecek bir şey:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Bu yardımcı oldu mu?"
+
+  utter_happy:
+  - text: "Harika, devam et!"
+
+  utter_goodbye:
+  - text: "Hoşça kal"
+
+  utter_iamabot:
+  - text: "Ben bir botum"
+
+
+
+
+  utter_ucret_ikt:
+  - text: "İstanbul Kültür Üniversitesi İktisat bölümünün yıllık ücreti 2024-2025 akademik yılı için 596.000 TL'dir. %50 burslu ücret ise 298.000 TL'dir."
+
+  utter_ucret_isletme:
+  - text: "İstanbul Kültür Üniversitesi İşletme bölümünün yıllık ücreti 2024-2025 akademik yılı için 596.000 TL'dir. %50 burslu ücret ise 298.000 TL'dir."
+
+  utter_ucret_muhendislik:
+  - text: "İstanbul Kültür Üniversitesi Mühendislik Fakültesi'ndeki bölümler için yıllık ücret 2024-2025 akademik yılı için 596.000 TL'dir. Elektrik mühendisliği, bilgisayar mühendisliği gibi bölümler de aynı ücreti uygulamaktadır. %50 burslu ücret ise 298.000 TL'dir."
+
+  utter_ucret_hukuk:
+  - text: "İstanbul Kültür Üniversitesi Hukuk bölümünün yıllık ücreti 2024-2025 akademik yılı için 596.000 TL'dir. %50 burslu ücret ise 298.000 TL'dir."
+
+  utter_ucret_gorsel_sanatlar:
+  - text: "İstanbul Kültür Üniversitesi Görsel Sanatlar Fakültesi, Grafik Tasarım ve diğer bölümleri için yıllık ücret 2024-2025 akademik yılı için 596.000 TL'dir. %50 burslu ücret ise 298.000 TL'dir."
+
+
+
+  utter_ucret_iletisim:
+  - text: "İstanbul Kültür Üniversitesi İletişim Fakültesi'nin yıllık ücreti 2024-2025 akademik yılı için 596.000 TL'dir. %50 burslu ücret ise 298.000 TL'dir."
+
+  utter_ucret_ekonomi:
+  - text: "İstanbul Kültür Üniversitesi Ekonomi bölümünün yıllık ücreti 2024-2025 akademik yılı için 596.000 TL'dir. %50 burslu ücret ise 298.000 TL'dir."
+
+  utter_ucret_bilgisayar:
+  - text: "İstanbul Kültür Üniversitesi Bilgisayar Mühendisliği bölümünün yıllık ücreti 2024-2025 akademik yılı için 596.000 TL'dir. %50 burslu ücret ise 298.000 TL'dir."
+
+  utter_ucret_endustri:
+  - text: "İstanbul Kültür Üniversitesi Endüstri Mühendisliği bölümünün yıllık ücreti 2024-2025 akademik yılı için 596.000 TL'dir. %50 burslu ücret ise 298.000 TL'dir."
+
+  utter_ucret_sosyoloji:
+  - text: "İstanbul Kültür Üniversitesi Sosyoloji bölümünün yıllık ücreti 2024-2025 akademik yılı için 596.000 TL'dir. %50 burslu ücret ise 298.000 TL'dir."
+
+  utter_taksitli_odeme:
+  - text: "İstanbul Kültür Üniversitesi'nde taksitli ödeme imkanı, aşağıdaki kredi kartları ile sağlanmaktadır: İş Bankası Maksimum, Ziraat Bankkart, TEB, Garanti, Deniz, Şeker, ING, Türkiye Finans Bankalarının Bonus kartları, Yapı Kredi World, Vakıf Bank World, Akbank Axess ve Wings, QNBFinansbank Cardfinans, Halkbank Paraf, Kuveytturk Sağlam Kart ve HSBC Advantage. Bu kartlarla 12 taksitle ödeme yapabilirsiniz."
+
+  utter_ucret_odeme:
+  - text: "İstanbul Kültür Üniversitesi'nde öğrenim ücreti ödeme seçenekleri olarak nakit ödeme, banka transferi ve kredi kartı ile ödeme seçenekleri sunulmaktadır.\nKredi kartı ile taksitli ödeme imkanı da mevcuttur."
+
+
+  utter_mali_iletisim:
+  - text: "İstanbul Kültür Üniversitesi Mali İşler Departmanıyla iletişime geçmek için:\nMail: maliisler@iku.edu.tr\nTelefon: (0212) 498 41 41"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
